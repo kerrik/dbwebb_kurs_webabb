@@ -1,6 +1,23 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.bread {
+    color: #333;
+}
+
+#method-nav,
 .bottom-nav {
-    position: fixed;
-    bottom: 0;
     overflow: hidden;
     width: 100%;
     display: flex;
@@ -9,10 +26,41 @@
     background: white;
 }
 
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+}
+
+.container {
+    padding: 0.8rem;
+}
 .container img {
     width: 100%;
 }
 
+.bottom-nav {
+    color: #555;
+    padding: 0.8rem 0rem 0.5rem;
+}
+
+.bottom-nav .active {
+    color: blue;
+}
+
+.bottom-nav a {
+    text-align: center;
+}
+
 .bottom-nav i {
     display: block;
+}
+
+.bottom-nav span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+}
+
+.articlename {
+    display: inline-block;
+    min-width: 8em;
 }
